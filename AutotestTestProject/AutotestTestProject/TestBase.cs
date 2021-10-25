@@ -51,5 +51,12 @@ namespace AutotestTestProject
         {
             driver.FindElement(By.CssSelector(selector));
         }
+
+        protected void OpenMianPage()
+        {
+            driver.Url = "http://localhost/litecart/en/";
+        }
+
+
     }
 }
