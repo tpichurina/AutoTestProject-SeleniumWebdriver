@@ -57,6 +57,14 @@ namespace AutotestTestProject
             driver.Url = "http://localhost/litecart/en/";
         }
 
+        protected void OpenCountriesPage()
+        {
+            driver.Url = "http://localhost/litecart/admin/?app=countries&doc=countries";
+        }
+        protected void OpenZonesPage()
+        {
+            driver.Url = "http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones";
+        }
 
     }
 }

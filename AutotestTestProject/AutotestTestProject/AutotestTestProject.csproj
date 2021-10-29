@@ -92,6 +92,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountriesTests.cs" />
     <Compile Include="ItemsTests.cs" />
     <Compile Include="LoginTest.cs" />
     <Compile Include="MenuTests.cs" />
