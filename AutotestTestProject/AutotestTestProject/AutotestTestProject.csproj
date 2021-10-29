@@ -92,11 +92,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountriesTests.cs" />
+    <Compile Include="CountriesAndZonesTests.cs" />
     <Compile Include="ItemsTests.cs" />
     <Compile Include="LoginTest.cs" />
     <Compile Include="MenuTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationTests.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>
   <ItemGroup>

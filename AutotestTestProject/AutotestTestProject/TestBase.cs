@@ -65,6 +65,9 @@ namespace AutotestTestProject
         {
             driver.Url = "http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones";
         }
-
+        protected void OpenCreateAccountPage()
+        {
+            driver.Url = "http://localhost/litecart/en/create_account";
+        }
     }
 }
