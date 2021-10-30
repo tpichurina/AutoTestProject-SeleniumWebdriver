@@ -69,5 +69,9 @@ namespace AutotestTestProject
         {
             driver.Url = "http://localhost/litecart/en/create_account";
         }
+        protected void OpenCatalogPage()
+        {
+            driver.Url = "http://localhost/litecart/admin/?app=catalog&doc=catalog";
+        }
     }
 }
