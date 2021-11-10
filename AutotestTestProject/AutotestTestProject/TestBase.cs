@@ -18,7 +18,7 @@ namespace AutotestTestProject
             driver = new ChromeDriver();
             //driver = new InternetExplorerDriver();
             //driver = new FirefoxDriver();
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(100));
         }
 
         [TearDown]
@@ -72,6 +72,10 @@ namespace AutotestTestProject
         protected void OpenCatalogPage()
         {
             driver.Url = "http://localhost/litecart/admin/?app=catalog&doc=catalog";
+        }
+        protected void OpenCatalogPageWithItems()
+        {
+            driver.Url = "http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1";
         }
     }
 }

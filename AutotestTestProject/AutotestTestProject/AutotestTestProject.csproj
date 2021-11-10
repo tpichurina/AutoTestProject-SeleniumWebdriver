@@ -97,6 +97,7 @@
     <Compile Include="CreateNewProductTests.cs" />
     <Compile Include="ItemsTests.cs" />
     <Compile Include="LoginTest.cs" />
+    <Compile Include="LogsTests.cs" />
     <Compile Include="MenuTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationTests.cs" />
